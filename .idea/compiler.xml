@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="exercise1_queue" target="1.5" />
+      <module name="exercise1_queue" target="1.7" />
       <module name="zadania_dodatkowe" target="1.5" />
     </bytecodeTargetLevel>
   </component>
