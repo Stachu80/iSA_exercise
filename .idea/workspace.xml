@@ -7,7 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7365ebf-25aa-4134-bebe-5724c469c835" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise4_geoMap/src/main/java/geomap/GeoMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/form.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/map.jsp" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/exercise4_geoMap_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/exercise4_geoMap_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/exercise4_geoMap/exercise4_geoMap.iml" afterPath="$PROJECT_DIR$/exercise4_geoMap/exercise4_geoMap.iml" />
+      <change beforePath="$PROJECT_DIR$/exercise4_geoMap/pom.xml" afterPath="$PROJECT_DIR$/exercise4_geoMap/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,17 +58,17 @@
         <entry file="file://$PROJECT_DIR$/exercise4_geoMap/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueueImplTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise1_queue/src/test/java/queue/QueueImplTest.java">
+      <file leaf-file-name="GeoMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/java/geomap/GeoMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="102">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,79 +76,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise_10_unit_converter/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnitConverter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise_10_unit_converter/src/main/java/unitconverter/UnitConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnitConverterImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise_10_unit_converter/src/main/java/unitconverter/UnitConverterImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-              <folding>
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnitConverterImplTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise_10_unit_converter/src/test/java/unitconverter/UnitConverterImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="281">
+              <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StackImplTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise2_stack/src/test/java/Stack/StackImplTest.java">
+      <file leaf-file-name="map.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/map.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/form.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,6 +135,8 @@
         <option value="JUnit4 Test Class" />
         <option value="JUnit3 Test Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -185,7 +162,15 @@
         <option value="$PROJECT_DIR$/exercise_10_unit_converter/src/main/java/UnitConverter/UnitConverterImpl.java" />
         <option value="$PROJECT_DIR$/exercise_10_unit_converter/src/main/java/unitconverter/UnitConverterImpl.java" />
         <option value="$PROJECT_DIR$/exercise_10_unit_converter/src/test/java/unitconverter/UnitConverterImplTest.java" />
+        <option value="$PROJECT_DIR$/exercise4_geoMap/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/WEB-INF/jboss-web.xml" />
+        <option value="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/geomap.jsp" />
+        <option value="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/WEB-INF/map.jsp" />
+        <option value="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/map.jsp" />
+        <option value="$PROJECT_DIR$/exercise4_geoMap/src/main/java/geomap/GeoMap.java" />
         <option value="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/form.jsp" />
       </list>
     </option>
   </component>
@@ -259,37 +244,30 @@
               <item name="exercise4_geoMap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise4_geoMap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="geomap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise4_geoMap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise_10_unit_converter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise_10_unit_converter" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise4_geoMap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise_10_unit_converter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise_10_unit_converter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise_10_unit_converter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="unitconverter" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,6 +289,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="SONARLINT_ANALYSIS_RESULTS_SCOPE" value="VCS changed files" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -319,6 +298,7 @@
       <recent name="Queue" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AKADEMIA_INFO_SHARE_NEW\zadania_dodatkowe\exercise4_geoMap\src\main\webapp\WEB-INF" />
       <recent name="D:\AKADEMIA_INFO_SHARE_NEW\zadania_dodatkowe\exercise_10_unit_converter\src\main\java" />
       <recent name="D:\AKADEMIA_INFO_SHARE_NEW\zadania_dodatkowe\exercise2_stack\src\main\java" />
     </key>
@@ -327,6 +307,7 @@
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AKADEMIA_INFO_SHARE_NEW\zadania_dodatkowe\exercise4_geoMap\src\main\webapp" />
       <recent name="D:\AKADEMIA_INFO_SHARE_NEW\zadania_dodatkowe\exercise1_queue\src\main\java" />
     </key>
   </component>
@@ -342,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JBoss Server.geo_map">
+  <component name="RunManager" selected="JBoss Server.google_map">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -364,8 +345,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="geo_map" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 11.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/exercise4_geoMap/" />
+    <configuration name="google_map" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 11.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="exercise4_geoMap:war exploded">
@@ -383,7 +363,7 @@
       <predefined_log_file id="JBoss" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51002" />
+        <option name="DEBUG_PORT" value="53846" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -609,7 +589,7 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JBoss Server.geo_map" />
+      <item index="0" class="java.lang.String" itemvalue="JBoss Server.google_map" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.QueueImplTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.StackImplTest.shouldPushAndPopItems" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.StackImplTest" />
@@ -637,7 +617,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522483921534</updated>
-      <workItem from="1522483926007" duration="4217000" />
+      <workItem from="1522483926007" duration="21960000" />
     </task>
     <task id="LOCAL-00001" summary="add exercise 1 queue">
       <created>1522484802284</created>
@@ -688,7 +668,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522487648270</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add input text and form to html">
+      <created>1522488196813</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1522488196813</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -712,7 +699,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4217000" />
+    <option name="totallyTimeSpent" value="21960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -721,11 +708,13 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10501066" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -739,6 +728,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -764,7 +754,8 @@
     <MESSAGE value="refactoring exercise 10 -- unit converter" />
     <MESSAGE value="add unrevisioned files" />
     <MESSAGE value="start working on exercise4 google_m&#10;ap" />
-    <option name="LAST_COMMIT_MESSAGE" value="start working on exercise4 google_m&#10;ap" />
+    <MESSAGE value="add input text and form to html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add input text and form to html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -820,7 +811,7 @@
         <state relative-caret-position="238">
           <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -830,16 +821,8 @@
         <state relative-caret-position="221">
           <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise_10_unit_converter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,18 +839,18 @@
         <state relative-caret-position="34">
           <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
           <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="false" />
+            <element signature="e#183#184#0" expanded="false" />
+            <element signature="e#248#249#0" expanded="false" />
+            <element signature="e#291#292#0" expanded="false" />
+            <element signature="e#354#355#0" expanded="false" />
+            <element signature="e#388#389#0" expanded="false" />
+            <element signature="e#451#452#0" expanded="false" />
+            <element signature="e#485#486#0" expanded="false" />
+            <element signature="e#548#549#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#648#649#0" expanded="false" />
+            <element signature="e#685#686#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -878,6 +861,17 @@
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/WEB-INF/jboss-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.oss.jboss.editor.JBossWebRootProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise1_queue/src/main/java/queue/QueueImpl.java">
@@ -896,11 +890,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise4_geoMap/pom.xml">
+    <entry file="file://$PROJECT_DIR$/exercise_10_unit_converter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <marker date="1513812335187" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1513812335187" expanded="false" signature="142:512" ph="..." />
+            <marker date="1513812335187" expanded="true" signature="1336:1343" ph="{}" />
+            <marker date="1513812335187" expanded="true" signature="1457:1727" ph="{...}" />
+            <marker date="1513812335187" expanded="false" signature="1787:1798" ph=" { " />
+            <marker date="1513812335187" expanded="false" signature="1809:1815" ph=" }" />
+            <marker date="1513812335187" expanded="true" signature="1930:2069" ph="{...}" />
+            <marker date="1513812335187" expanded="true" signature="2184:2455" ph="{...}" />
+            <marker date="1513812335187" expanded="true" signature="2569:2839" ph="{...}" />
+            <marker date="1513812335187" expanded="true" signature="2956:3229" ph="{...}" />
+            <marker date="1513812335187" expanded="true" signature="3283:3972" ph="{...}" />
+            <marker date="1513812335187" expanded="true" signature="4090:6184" ph="{...}" />
+            <marker date="1513812335187" expanded="true" signature="6300:7021" ph="{...}" />
+            <marker date="1513812335187" expanded="true" signature="7137:8622" ph="{...}" />
+            <marker date="1513812335187" expanded="true" signature="8707:8897" ph="{...}" />
+            <marker date="1513812335187" expanded="true" signature="9001:9360" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -909,6 +928,40 @@
         <state relative-caret-position="238">
           <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/map.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise4_geoMap/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/java/geomap/GeoMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -916,8 +969,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="281">
+          <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
