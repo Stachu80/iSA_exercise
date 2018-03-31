@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7365ebf-25aa-4134-bebe-5724c469c835" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_10_unit_converter/exercise_10_unit_converter.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_10_unit_converter/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_10_unit_converter/src/main/java/unitconverter/UnitConverter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_10_unit_converter/src/main/java/unitconverter/UnitConverterImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_10_unit_converter/src/test/java/unitconverter/UnitConverterImplTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -99,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnitConverterImplTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UnitConverterImplTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise_10_unit_converter/src/test/java/unitconverter/UnitConverterImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="255">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,11 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercise1_queue/src/main/java/queue/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -233,6 +225,41 @@
             <path>
               <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="zadania_dodatkowe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zadania_dodatkowe" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise1_queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zadania_dodatkowe" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise1_queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zadania_dodatkowe" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise1_queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zadania_dodatkowe" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise1_queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zadania_dodatkowe" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise1_queue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -495,7 +522,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522483921534</updated>
-      <workItem from="1522483926007" duration="2216000" />
+      <workItem from="1522483926007" duration="2466000" />
     </task>
     <task id="LOCAL-00001" summary="add exercise 1 queue">
       <created>1522484802284</created>
@@ -525,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522485937520</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactoring exercise 10 -- unit converter">
+      <created>1522486168233</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1522486168233</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -546,7 +580,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2216000" />
+    <option name="totallyTimeSpent" value="2466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -592,7 +626,8 @@
     <MESSAGE value="add exercise 1 queue" />
     <MESSAGE value="add exercise_2_stack" />
     <MESSAGE value="refactoring exercise 1 and 2 -- changed package name" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring exercise 1 and 2 -- changed package name" />
+    <MESSAGE value="refactoring exercise 10 -- unit converter" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring exercise 10 -- unit converter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -629,14 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise1_queue/src/main/java/queue/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -726,11 +753,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise_10_unit_converter/src/test/java/unitconverter/UnitConverterImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="255">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise1_queue/src/main/java/queue/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
