@@ -6,26 +6,26 @@ import java.util.Deque;
 
 public class StackImpl<T> implements Stack<T> {
 
-    private Deque<T> list = new ArrayDeque<>();
+    private Deque<T> stack = new ArrayDeque<>();
 
     @Override
     public void push(T o) {
-        list.push(o);
+        stack.push(o);
     }
 
     @Override
     public T pop() {
-        if (list.size() == 0) {
+        if (stack.size() == 0) {
             throw new IllegalStateException("Throw an IllegalStateException");
         }
-        return list.pop();
+        return stack.pop();
     }
 
     @Override
     public T peek() {
-        if (list.size() == 0) {
+        if (stack.size() == 0) {
             throw new IllegalStateException("Throw an IllegalStateException");
         }
-        return list.peek();
+        return stack.peek();
     }
 }
