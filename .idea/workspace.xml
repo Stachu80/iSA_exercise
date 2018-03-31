@@ -7,13 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7365ebf-25aa-4134-bebe-5724c469c835" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/exercise4_geoMap_war.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/exercise4_geoMap_war_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise4_geoMap/exercise4_geoMap.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise4_geoMap/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -129,8 +122,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="136">
+              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -192,6 +185,7 @@
         <option value="$PROJECT_DIR$/exercise_10_unit_converter/src/main/java/UnitConverter/UnitConverterImpl.java" />
         <option value="$PROJECT_DIR$/exercise_10_unit_converter/src/main/java/unitconverter/UnitConverterImpl.java" />
         <option value="$PROJECT_DIR$/exercise_10_unit_converter/src/test/java/unitconverter/UnitConverterImplTest.java" />
+        <option value="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/index.jsp" />
       </list>
     </option>
   </component>
@@ -643,7 +637,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522483921534</updated>
-      <workItem from="1522483926007" duration="3670000" />
+      <workItem from="1522483926007" duration="4217000" />
     </task>
     <task id="LOCAL-00001" summary="add exercise 1 queue">
       <created>1522484802284</created>
@@ -687,7 +681,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522486430547</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="start working on exercise4 google_m&#10;ap">
+      <created>1522487648270</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1522487648270</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -711,7 +712,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3670000" />
+    <option name="totallyTimeSpent" value="4217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -762,7 +763,8 @@
     <MESSAGE value="refactoring exercise 1 and 2 -- changed package name" />
     <MESSAGE value="refactoring exercise 10 -- unit converter" />
     <MESSAGE value="add unrevisioned files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add unrevisioned files" />
+    <MESSAGE value="start working on exercise4 google_m&#10;ap" />
+    <option name="LAST_COMMIT_MESSAGE" value="start working on exercise4 google_m&#10;ap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -914,8 +916,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="136">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>
