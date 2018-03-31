@@ -6,7 +6,6 @@ import static org.junit.Assert.*;
 
 public class QueueImplTest {
 
-
     @Test
     public void shouldEnqueueItems() {
         Queue<String> queue = new QueueImpl<>();
