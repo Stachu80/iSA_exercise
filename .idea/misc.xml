@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/exercise4_geoMap" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/exercise1_queue/pom.xml" />
         <option value="$PROJECT_DIR$/exercise2_stack/pom.xml" />
         <option value="$PROJECT_DIR$/exercise_10_unit_converter/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise4_geoMap/pom.xml" />
       </list>
     </option>
   </component>

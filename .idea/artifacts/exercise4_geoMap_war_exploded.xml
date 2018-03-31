@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="exercise4_geoMap:war exploded">
+    <output-path>$PROJECT_DIR$/exercise4_geoMap/target/exercise4_geoMap</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="exercise4_geoMap" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/exercise4_geoMap/target/exercise4_geoMap/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="exercise4_geoMap/web/Web" />
+    </root>
+  </artifact>
+</component>
