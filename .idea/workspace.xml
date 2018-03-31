@@ -6,12 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7365ebf-25aa-4134-bebe-5724c469c835" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/css/geomap.css" />
+    <list default="true" id="f7365ebf-25aa-4134-bebe-5724c469c835" name="Default" comment="change context">
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/WEB-INF/jboss-web.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/exercise4_geoMap/src/main/java/geomap/GeoMap.java" afterPath="$PROJECT_DIR$/exercise4_geoMap/src/main/java/geomap/GeoMap.java" />
       <change beforePath="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/form.jsp" afterPath="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/form.jsp" />
-      <change beforePath="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,7 +57,7 @@
       <file leaf-file-name="GeoMap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/java/geomap/GeoMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="833">
               <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -81,18 +79,31 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="663">
               <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="map.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/map.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jboss-web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/WEB-INF/jboss-web.xml">
+          <provider editor-type-id="com.intellij.javaee.oss.jboss.editor.JBossWebRootProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -172,8 +183,8 @@
         <option value="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/map.jsp" />
         <option value="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/exercise4_geoMap/src/main/java/geomap/GeoMap.java" />
-        <option value="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/form.jsp" />
         <option value="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/css/geomap.css" />
+        <option value="$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/form.jsp" />
       </list>
     </option>
   </component>
@@ -231,6 +242,51 @@
               <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercise4_geoMap" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise4_geoMap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise4_geoMap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise4_geoMap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise4_geoMap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="geomap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise4_geoMap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise4_geoMap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise_10_unit_converter" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -268,8 +324,8 @@
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\AKADEMIA_INFO_SHARE_NEW\zadania_dodatkowe\exercise4_geoMap\src\main\webapp" />
       <recent name="D:\AKADEMIA_INFO_SHARE_NEW\zadania_dodatkowe\exercise4_geoMap\src\main\webapp\WEB-INF" />
+      <recent name="D:\AKADEMIA_INFO_SHARE_NEW\zadania_dodatkowe\exercise4_geoMap\src\main\webapp" />
       <recent name="D:\AKADEMIA_INFO_SHARE_NEW\zadania_dodatkowe\exercise_10_unit_converter\src\main\java" />
       <recent name="D:\AKADEMIA_INFO_SHARE_NEW\zadania_dodatkowe\exercise2_stack\src\main\java" />
     </key>
@@ -309,6 +365,7 @@
       <envs />
     </configuration>
     <configuration name="google_map" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 11.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="exercise4_geoMap:war exploded">
@@ -581,7 +638,7 @@
       <option name="presentableId" value="Default" />
       <updated>1522483921534</updated>
       <workItem from="1522483926007" duration="22689000" />
-      <workItem from="1522516507042" duration="2179000" />
+      <workItem from="1522516507042" duration="2533000" />
     </task>
     <task id="LOCAL-00001" summary="add exercise 1 queue">
       <created>1522484802284</created>
@@ -646,7 +703,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522507406897</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="finish google map api- exrcise 4">
+      <created>1522519301322</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1522519301322</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -670,7 +734,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24868000" />
+    <option name="totallyTimeSpent" value="25222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -727,7 +791,8 @@
     <MESSAGE value="start working on exercise4 google_m&#10;ap" />
     <MESSAGE value="add input text and form to html" />
     <MESSAGE value="add google map api to exrcise 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="add google map api to exrcise 4" />
+    <MESSAGE value="finish google map api- exrcise 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish google map api- exrcise 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -884,7 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/WEB-INF/jboss-web.xml" />
     <entry file="file://$PROJECT_DIR$/exercise1_queue/src/main/java/queue/QueueImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -923,29 +987,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise4_geoMap/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/java/geomap/GeoMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -957,9 +1003,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/map.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/java/geomap/GeoMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
           <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
           <folding />
         </state>
@@ -973,10 +1045,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/map.jsp">
+    <entry file="file://$PROJECT_DIR$/exercise4_geoMap/src/main/webapp/WEB-INF/jboss-web.xml">
+      <provider editor-type-id="com.intellij.javaee.oss.jboss.editor.JBossWebRootProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="136">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding />
         </state>
       </provider>
