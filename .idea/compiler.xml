@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="exercise1_queue" />
+        <module name="exercise2_stack" />
         <module name="zadania_dodatkowe" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="exercise1_queue" target="1.7" />
+      <module name="exercise2_stack" target="1.7" />
       <module name="zadania_dodatkowe" target="1.5" />
     </bytecodeTargetLevel>
   </component>
