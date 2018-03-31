@@ -2,8 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <form method="post" action="/exercise4_geoMap/geomaps">
-
-    <h3>Geo Maps</h3><br/><br/>
+    <div id ="header">Google Map</div><br/>
+    <span>${warning}</span>
     <input type="text" class="form-control" placeholder="wpisz szukaną lokalizację" name="adress" autofocus>
     <br/>
     <input type="submit" name="" value="znajdź"/>

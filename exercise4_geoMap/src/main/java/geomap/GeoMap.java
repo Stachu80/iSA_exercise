@@ -6,6 +6,8 @@ import com.google.maps.GeoApiContext;
 import com.google.maps.GeocodingApi;
 import com.google.maps.errors.ApiException;
 import com.google.maps.model.GeocodingResult;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -20,6 +22,7 @@ import java.io.UnsupportedEncodingException;
 public class GeoMap extends HttpServlet {
 
     private static final String apiKey = "AIzaSyApzO6M1t548pD_AsXkJWYM4PrWJXrf8DM";
+    private final Logger logger = LoggerFactory.getLogger(GeoMap.class.getName());
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -36,7 +39,6 @@ public class GeoMap extends HttpServlet {
         req.setCharacterEncoding("UTF-8");
         String adress = req.getParameter("adress") == null ? "" : req.getParameter("adress");
 
-        System.out.println(req.getParameter("city")+" adress           "   +adress);
         GeoApiContext context = new GeoApiContext.Builder()
                 .apiKey(apiKey)
                 .build();
@@ -58,9 +60,10 @@ public class GeoMap extends HttpServlet {
             req.setAttribute("latitude", gson.toJson(results[0].geometry.location.lat));
             req.setAttribute("longitude", gson.toJson(results[0].geometry.location.lng));
 
-            System.out.println(gson.toJson(results[0].postcodeLocalities));
-        }else{
-            System.out.println("lipa");
+            logger.info(gson.toJson(results[0].addressComponents));
+        } else {
+            req.setAttribute("warning", "nie znaleziono miejsca o podanej lokalizacji");
+            logger.warn("Uwaga! nie znaleziono miejsca o podanej lokalizacji");
         }
 
         showPage(req, resp);
@@ -72,7 +75,7 @@ public class GeoMap extends HttpServlet {
         try {
             requestDispatcher.forward(req, resp);
         } catch (Exception e) {
-            log("problem with page: " + e);
+            logger.warn("problem z wyświetleniem strony");
         }
     }
 }
