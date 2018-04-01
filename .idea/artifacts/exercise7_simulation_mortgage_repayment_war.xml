@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="exercise7_simulation_mortgage_repayment:war">
+    <output-path>$PROJECT_DIR$/exercise7_simulation_mortgage_repayment/target</output-path>
+    <root id="archive" name="exercise7_simulation_mortgage_repayment.war">
+      <element id="artifact" artifact-name="exercise7_simulation_mortgage_repayment:war exploded" />
+    </root>
+  </artifact>
+</component>

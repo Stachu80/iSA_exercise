@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/exercise4_geoMap" />
+    <file type="web" url="file://$PROJECT_DIR$/exercise7_simulation_mortgage_repayment" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -10,6 +11,8 @@
         <option value="$PROJECT_DIR$/exercise2_stack/pom.xml" />
         <option value="$PROJECT_DIR$/exercise_10_unit_converter/pom.xml" />
         <option value="$PROJECT_DIR$/exercise4_geoMap/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise7_simulation_of_mortgage_repayment/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise7_simulation_mortgage_repayment/pom.xml" />
       </list>
     </option>
   </component>
