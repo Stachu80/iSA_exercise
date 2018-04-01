@@ -2,7 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <form method="post" action="/bank">
-    <div id ="header">Kalkulator kredytowy</div><br/>
+    <div class ="info">Kalkulator kredytowy</div><br/>
+    <br/>
     <span>${warning}</span>
     Kwota kredytu <input type="number" class="form-control" placeholder="wpisz kwote kredytu" name="credit" autofocus value="${credit}">
     <br/>

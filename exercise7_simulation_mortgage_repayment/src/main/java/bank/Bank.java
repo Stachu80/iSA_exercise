@@ -12,11 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
-
-import static java.lang.Double.parseDouble;
 
 @WebServlet("/bank")
 public class Bank extends HttpServlet {
@@ -35,7 +32,7 @@ public class Bank extends HttpServlet {
     }
 
     public void calculate(HttpServletRequest req, HttpServletResponse resp) throws UnsupportedEncodingException {
-        float sumOfAllInterest = 0;
+        double sumOfAllInterest = 0;
         resp.setCharacterEncoding("UTF-8");
         req.setCharacterEncoding("UTF-8");
 
@@ -49,28 +46,28 @@ public class Bank extends HttpServlet {
         req.setAttribute("interest", interest);
         req.setAttribute("commission", commission);
 
-        Integer baseValueWithCommission = credit;// + (commission * credit / 100);
-
-
-        System.out.println("baseValueWithCommission  " + baseValueWithCommission);
         List<Repayment> repayment = new ArrayList<>();
         if (isEmpty(credit) || isEmpty(month) || isEmpty(interest) || isEmpty(commission)) {
             req.setAttribute("warning", "nie wypelniłeś wszystkich pól");
         } else {
-            Integer baseValue = baseValueWithCommission;
+            Integer baseValueWithCommission = credit + (commission * credit / 100);
+            Integer baseValue = credit;
             for (int i = 0; i < month; i++) {
-                baseValue -= baseValue / month * i;
-                float interestInMonth = Math.round(((interest.floatValue() / 12) * baseValue) / 100);
+                baseValue -= (baseValue / month);
+
+
+                double interestInMonth = Math.round(((interest.doubleValue() / 12) * baseValue) / 100);
                 sumOfAllInterest += interestInMonth;
+
                 Repayment row = new Repayment();
                 row.setInterrest(interestInMonth);
                 row.setToRepay(baseValue);
                 repayment.add(row);
 
             }
-
-            double installment = Math.ceil((baseValueWithCommission + sumOfAllInterest) / month);
-            double theTotalAmountToBeRepaid = baseValueWithCommission + sumOfAllInterest;
+            System.out.println(sumOfAllInterest);
+            double installment = Math.round((baseValueWithCommission + sumOfAllInterest) / month);
+            double theTotalAmountToBeRepaid = installment * month;
             double bankProfit = theTotalAmountToBeRepaid - credit;
             double RRSO = ((bankProfit * 12 / month) / (credit / 2)) * 100;
 
