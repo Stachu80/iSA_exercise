@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/exercise2_stack/exercise2_stack.iml" filepath="$PROJECT_DIR$/exercise2_stack/exercise2_stack.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercise4_geoMap/exercise4_geoMap.iml" filepath="$PROJECT_DIR$/exercise4_geoMap/exercise4_geoMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercise7_simulation_mortgage_repayment/exercise7_simulation_mortgage_repayment.iml" filepath="$PROJECT_DIR$/exercise7_simulation_mortgage_repayment/exercise7_simulation_mortgage_repayment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise8_resize_photo/exercise8_resize_photo.iml" filepath="$PROJECT_DIR$/exercise8_resize_photo/exercise8_resize_photo.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercise_10_unit_converter/exercise_10_unit_converter.iml" filepath="$PROJECT_DIR$/exercise_10_unit_converter/exercise_10_unit_converter.iml" />
     </modules>
   </component>

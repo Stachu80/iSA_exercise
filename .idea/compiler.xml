@@ -10,16 +10,21 @@
         <module name="exercise2_stack" />
         <module name="exercise4_geoMap" />
         <module name="exercise7_simulation_mortgage_repayment" />
+        <module name="exercise8_resize_photo" />
         <module name="exercise_10_unit_converter" />
+        <module name="test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="exercise1_queue" target="1.7" />
       <module name="exercise2_stack" target="1.7" />
       <module name="exercise4_geoMap" target="1.5" />
-      <module name="exercise7_simulation_mortgage_repayment" target="1.7" />
+      <module name="exercise7_simulation_mortgage_repayment" target="1.8" />
       <module name="exercise7_simulation_of_mortgage_repayment" target="1.5" />
+      <module name="exercise8_halve_the_photo" target="1.5" />
+      <module name="exercise8_resize_photo" target="1.5" />
       <module name="exercise_10_unit_converter" target="1.6" />
+      <module name="test" target="1.5" />
       <module name="zadania_dodatkowe" target="1.5" />
     </bytecodeTargetLevel>
   </component>

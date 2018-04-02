@@ -12,6 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,6 +35,7 @@ public class Bank extends HttpServlet {
 
     public void calculate(HttpServletRequest req, HttpServletResponse resp) throws UnsupportedEncodingException {
         double sumOfAllInterest = 0;
+
         resp.setCharacterEncoding("UTF-8");
         req.setCharacterEncoding("UTF-8");
 
@@ -51,12 +54,12 @@ public class Bank extends HttpServlet {
             req.setAttribute("warning", "nie wypelniłeś wszystkich pól");
         } else {
             Integer baseValueWithCommission = credit + (commission * credit / 100);
-            Integer baseValue = credit;
+            double baseValue = credit;
             for (int i = 0; i < month; i++) {
                 baseValue -= (baseValue / month);
 
 
-                double interestInMonth = Math.round(((interest.doubleValue() / 12) * baseValue) / 100);
+                double interestInMonth = round(((interest / 12) * baseValue) / 100,2);
                 sumOfAllInterest += interestInMonth;
 
                 Repayment row = new Repayment();
@@ -65,8 +68,8 @@ public class Bank extends HttpServlet {
                 repayment.add(row);
 
             }
-            System.out.println(sumOfAllInterest);
-            double installment = Math.round((baseValueWithCommission + sumOfAllInterest) / month);
+
+            double installment = round(((baseValueWithCommission + sumOfAllInterest) / month),2);
             double theTotalAmountToBeRepaid = installment * month;
             double bankProfit = theTotalAmountToBeRepaid - credit;
             double RRSO = ((bankProfit * 12 / month) / (credit / 2)) * 100;
@@ -79,14 +82,18 @@ public class Bank extends HttpServlet {
             req.setAttribute("baseValueWithCommission", baseValueWithCommission);
             req.setAttribute("rrso", numberAsString);
 
-            repayment.stream().forEach(r -> r.setCapital(installment - r.getInterrest()));
-
-
+            repayment.stream().forEach(r -> r.setCapital(round(installment - r.getInterrest(),2)));
         }
 
         showPage(req, resp);
     }
+    public static double round(double value, int places) {
+        if (places < 0) throw new IllegalArgumentException();
 
+        BigDecimal bd = new BigDecimal(value);
+        bd = bd.setScale(places, RoundingMode.HALF_UP);
+        return bd.doubleValue();
+    }
     private static Integer getInteger(String str) {
         if (str.equals("")) {
             return null;
@@ -95,7 +102,7 @@ public class Bank extends HttpServlet {
         }
     }
 
-    private boolean isEmpty(Integer value) {
+    private boolean isEmpty(Object value) {
         return value == null;
     }
 
